@@ -1,0 +1,24 @@
+
+.header{
+    background-color: #f7f0f0;
+}
+
+.header ul.menu{
+    display: flex;
+    gap: 15px;
+    list-style: none outside;
+}
+
+.header-wrap{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .header-wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

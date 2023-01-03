@@ -1,0 +1,23 @@
+
+
+
+
+.node__content .field-title{
+  font-size: var(--font-size-l);
+  line-height: var(--line-height-base);
+  color: var(--primary-black);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.field--type-created{
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-s);
+  text-transform: uppercase;
+  color: var(--font-gray);
+}
+
+
+
+
+

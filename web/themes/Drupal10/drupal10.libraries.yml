@@ -1,0 +1,52 @@
+global:
+  version: VERSION
+  css:
+    component:
+      css/global/global.css:
+        weight: 10
+      css/global/variables.css:
+        weight: 10
+      css/global/fonts.css:
+        weight: 10
+layout:
+  version: VERSION
+  css:
+    component:
+      css/layout/header.css:
+        weight: 10
+      css/layout/footer.css:
+        weight: 10
+      css/layout/highlighted.css:
+        weight: 10
+      css/layout/main.css:
+        weight: 10
+      css/layout/aside.css:
+        weight: 10
+base:
+  version: VERSION
+  css:
+    component:
+      css/components/taxonomy-term.css:
+        weight: -10
+      css/components/form.css:
+        weight: -10
+      css/components/link.css:
+        weight: -10
+      css/components/links.css:
+        weight: -10
+node:
+  version: VERSION
+  css:
+    component:
+      css/components/node.css:
+        weight: -10
+      css/components/node-full.css:
+        weight: -10
+      css/components/node-teaser.css:
+        weight: -10
+user:
+  version: VERSION
+  css:
+    component:
+      css/components/user.css:
+        weight: -10

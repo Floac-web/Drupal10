@@ -1,0 +1,30 @@
+.node--view-mode-full{
+    padding: 15px 10px;
+  }
+  
+  .node--view-mode-full .field-img-block{
+    width: 100%;
+    max-width: 320px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+  }
+  
+  .node--view-mode-full .field-description{
+    color: var(--primary-black);
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--secondary-gray);
+  }
+  
+  .node--view-mode-full .field-content{
+    margin-top: 15px;
+  }
+  
+  .node--view-mode-full .field--type-entity-reference>.field__items{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .node--view-mode-full .field--type-entity-reference>.field__items .field__item:hover{
+    text-decoration: underline;
+  }

@@ -1,0 +1,22 @@
+name: drupal10
+type: theme
+'base theme': stable9
+starterkit: false
+version: VERSION
+regions:
+  header: "Header"
+  highlighted: "Highlighted"
+  content: "Content"
+  sidebar: 'Sidebar'
+  footer: 'Footer'
+libraries:
+  - drupal10/global
+  - drupal10/base
+  - drupal10/layout
+  - drupal10/node
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - drupal10/user
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.0'

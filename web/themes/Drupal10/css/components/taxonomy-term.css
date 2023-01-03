@@ -1,0 +1,15 @@
+
+.taxonomy-term{
+    font-size: var(--font-size-xs);
+    line-height: var(--line-height-s);
+    display: inline-block;
+    font-weight: 400;
+    color: var(--primary-blue);
+    text-transform: lowercase;
+    transition: all;
+}
+
+.taxonomy-term:hover,
+.field--type-entity-reference a:hover{
+    text-decoration: underline;
+}

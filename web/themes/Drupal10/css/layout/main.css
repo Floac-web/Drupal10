@@ -1,0 +1,13 @@
+
+
+.layout-content{
+    float: left;
+    width: 75%;
+}
+
+@media screen and (max-width: 768px) {
+    .layout-content{
+        float: none;
+        width: 100%;
+    }
+}
